@@ -1,0 +1,2 @@
+[functions.admin-feedback]
+verify_jwt = true

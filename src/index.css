@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    background: #f6f8fa;
+    color: #0f172a;
+    font-family: 'Inter', '"Noto Sans Devanagari"', system-ui, sans-serif;
+  }
+
+  ::selection {
+    background: #00a896;
+    color: #ffffff;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .glass {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .glass-light {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .gold-text {
+    background: linear-gradient(120deg, #f5ebc4 0%, #d4af37 45%, #9c7b1f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero-mesh {
+    background:
+      radial-gradient(900px circle at 85% 10%, rgba(0, 168, 150, 0.22), transparent 55%),
+      radial-gradient(700px circle at 10% 90%, rgba(212, 175, 55, 0.14), transparent 55%),
+      linear-gradient(135deg, #061524 0%, #0f2b48 55%, #163a5b 100%);
+  }
+}
