@@ -47,8 +47,8 @@ export const LEADERS: Leader[] = [
     name: 'Dr. Imran Khan',
     role: { en: 'Director, Al Mannat Hospital', hi: 'निदेशक, अल मन्नत हॉस्पिटल' },
     credentials: {
-      en: 'MBBS, General Physician & Director',
-      hi: 'MBBS, जनरल फिजिशियन एवं निदेशक',
+      en: 'BUMS(MD), General Physician & Director',
+      hi: 'BUMS(MD), जनरल फिजिशियन एवं निदेशक',
     },
     photo: 'https://i.ibb.co/zhHxLQxx/IMG-20261020-WA0063.jpg',
   },
@@ -57,8 +57,8 @@ export const LEADERS: Leader[] = [
     name: 'Dr. Furkan Khan',
     role: { en: 'Director, Al Mannat Hospital Shaheen Bagh', hi: 'निदेशक, अल मन्नत हॉस्पिटल शाहीन बाग' },
     credentials: {
-      en: 'MBBS, General Physician & Director',
-      hi: 'MBBS, जनरल फिजिशियन एवं निदेशक',
+      en: 'BAMS,MBA, General Physician & Director',
+      hi: 'BAMS, जनरल फिजिशियन एवं निदेशक',
     },
     photo: 'https://i.ibb.co/qLgsT6tC/IMG-20261020-WA0064.jpg',
   },
